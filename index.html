@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <title>Quiz Night</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>QuizNight</title>
-    <!-- <link rel="stylesheet" href="./assets/style.css" />  -->
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
+    <header>
+        <h4> View High Scores</h4>
+        <!-- Headers -->
+        <h1></h1>
+        <h4>Timer: <span id="time"></span></h4>
+    </header>
+    <section class="startingPage">
+        <h2>Quiz Night Challenge</h2>
+        <h3>Try to answer the following questions within the time limit.</h3>
+        <h3>Keep in mind that incorrect answers will penalize your score.</h3>
+        <h4>Timer Value</h4>
+        <button id="startBtn">Start Quiz Night Challenge</button>
+    </section>
 
-    <!-- 'h1 is where our questions go' -->
-    <h1 id="question"></h1>
+    <section class="questionPages hide" id="quiz">
+        <h2>Quiz Night Challenge Question</h2>
+        <h3 id="quizQuestion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, fugit? </h3>
+        <button id="answer1">Answer 1</button>
+        <button id="answer2">Answer 2</button>
+        <button id="answer3">Answer 3</button>
+        <h4>Response: Yes, correct answer. Wrong answer, 10 points deducted.</h4>
+    </section>
 
-    <!-- One can listen on the button, but it is more efficient to listen to the parent -->
-    <div id="quiz">
-        <button id="answer1"></button>
-        <button id="answer2"></button>
-        <button id="answer3"></button>
-        <button id="answer4"></button>
-        <button id="answer5"></button>
-        <button id="answer6"></button>
-    </div>
+    <section class="allDone hide">
+        <h2>All done!</h2>
+        <h4>Your final score is:</h4>
+        <h4>Box to enter initials<h4></h4>
+        <button>Submit</button>
+        <h4>Enter your initials<h4>
+        <hh4>Box to enter initials</h4>
+    </section>
 
-    <script src="./index.js"></script>
+    <section class="highScore hide">
+        <h2>High Score</h2>
+        <h3>Player Initials </h3>
+        <h3>Score:</h3>
+        <button>Clear High Score</button>
+        <button>Go Back</button>
+    </section>
+
+     <script src="./index.js"></script> 
 </body>
 
 </html>
+
+
+
+
