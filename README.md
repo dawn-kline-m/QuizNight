@@ -11,25 +11,13 @@ This week’s coursework will equip you with all the skills you need to succeed 
 ## Functionality
 
 
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+When the user clicks the Start-Quiz-Night-Challenge button, the user is presented with a series of typical Quiz Night questions.
 
+The quiz is timed and the high score is stored.
 
-## Acceptance Criteria
+After answering a question, the user is shown whether or not the answer is correct.  If the answer is incorrect 10 seconds is subtracted from the score.  Another question is then presented.
 
-
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
+When all questions are answered or the timer reaches 0 the game is over.  The user can then save their initials and their score is saved.
 
 
 ## Appearance and Location
@@ -38,25 +26,20 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Appearance and Location
 
+The following image is a screenshot of the application:
 
-### Project Status
+![This is a screenshot of the password generator.](./Assets/03-javascript-homework-demo.png)
 
-* Application user experience is intuitive and easy to navigate.
+URL: https://dawn-kline-m.github.io/Password-Generator/
 
-* Application user interface style is clean and polished.
+ 
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+## Project Status
+
+The project is almost complete.
+
 
 
